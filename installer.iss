@@ -11,6 +11,7 @@ DefaultGroupName=Razer\ChromaEmulator
 OutputBaseFilename=ChromaEmulatorSetup
 SetupIconFile=release_icon.ico
 UninstallDisplayIcon={app}\RazerChromaEmulator.exe
+UninstallDisplayName=Uninstall Chroma Emulator
 Compression=lzma
 SolidCompression=yes
 InfoBeforeFile=eula.txt
