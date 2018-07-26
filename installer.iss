@@ -1,6 +1,6 @@
 [Setup]
 AppName=Chroma Emulator
-AppVersion=1.0.1
+AppVersion=1.0.2
 AppVerName=Razer Chroma Emulator
 AppPublisher=Razer, Inc.
 AppPublisherURL=https://razerzone.com
@@ -9,6 +9,7 @@ AppUpdatesURL=https://razerzone.com
 DefaultDirName={pf32}\Razer\ChromaEmulator
 DefaultGroupName=Razer\ChromaEmulator
 OutputBaseFilename=ChromaEmulatorSetup
+VersionInfoVersion=1.0.2
 SetupIconFile=release_icon.ico
 UninstallDisplayIcon={app}\RazerChromaEmulator.exe
 UninstallDisplayName=Razer Chroma Emulator
