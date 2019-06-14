@@ -1,6 +1,6 @@
 [Setup]
 AppName=Chroma Emulator
-AppVersion=1.1.1
+AppVersion=1.1.3
 AppVerName=Razer Chroma Emulator
 AppPublisher=Razer Inc.
 AppPublisherURL=https://razer.com
@@ -10,7 +10,7 @@ AppCopyright=Copyright (C) 2011-2019 Razer Inc.
 DefaultDirName={pf32}\Razer\ChromaEmulator
 DefaultGroupName=Razer\ChromaEmulator
 OutputBaseFilename=ChromaEmulatorSetup
-VersionInfoVersion=1.1.1
+VersionInfoVersion=1.1.3
 SetupIconFile=release_icon.ico
 UninstallDisplayIcon={app}\RazerChromaEmulator.exe
 UninstallDisplayName=Razer Chroma Emulator
@@ -24,7 +24,7 @@ ChangesAssociations = yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "RazerChromaEmulator.exe"; DestDir: "{pf32}\Razer\ChromaEmulator"; CopyMode: alwaysoverwrite
+Source: "RazerChromaEmulator.exe"; DestDir: "{pf32}\Razer\ChromaEmulator"; Flags:ignoreversion;
 
 [Icons]
 Name: "{group}\ChromaEmulator"; Filename: "{pf32}\Razer\ChromaEmulator\RazerChromaEmulator.exe"; WorkingDir: "{app}";
